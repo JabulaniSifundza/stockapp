@@ -61,7 +61,7 @@ const Autocomplete = () =>{
 	}, [search])
 	return <div className="w-50 p-5 rounded mx-auto">
 		<div className="form-floating dropdown">
-			<input style={{backgroundColor:"rgba(145, 258, 171, 0.04)"}} id="search" type="text" className="form-control" placeholder="Search" autoComplete="off" value={search} onChange={(e)=> setSearch(e.target.value)}></input>
+			<input style={{backgroundColor:"rgba(145, 258, 171, 0.04)"}} id="search" type="text" className="form-control" placeholder="Search Companies" autoComplete="off" value={search} onChange={(e)=> setSearch(e.target.value)}></input>
 			<label htmlFor="search">Search</label>
 			{renderDropdown()}
 		</div>

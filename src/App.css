@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Goldman', cursive;
 }
 
 .App-logo {
@@ -12,6 +13,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
 
 .App-header {
   background-color: #282c34;
@@ -44,4 +47,36 @@
 .table-row:hover  .delete-button{
 	visibility: visible;
 
+}
+
+header{
+	width: 98vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
+
+.headerImage{
+	width: 120px;
+	height: 70px;
+	align-self: center;
+	justify-self: start;
+	font-family: 'Goldman', cursive;
+	margin-left: -120px;
+	
+}
+
+.headerText{
+	align-self: center;
+	justify-self: end;
+	margin-right: 120px;
+	font-family: 'Goldman', cursive;
+}
+
+h3{
+	font-family: 'Goldman', cursive;
+}
+
+table{
+	font-family: 'Goldman', cursive;
 }
